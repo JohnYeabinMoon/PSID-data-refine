@@ -1,0 +1,26 @@
+This is a tutorial for how to construct a panel data. You will create home value data from 2005 to 2007.
+
+Log in: http://psidonline.isr.umich.edu/
+
+The first step is to create individual unique identifier (pid). You need two variables, 1968 ID and Person Number 68.
+(More detail descrption see the question 9: http://psidonline.isr.umich.edu/Guide/FAQ.aspx)
+
+The variable codes are ER30001 and ER30002 so from the start page
+  1. Click DATA tab -> Data Center -> Variable List 
+You can see the box called 'Variable List'. 
+  2. Type ER30001 ER30002 and click 'Add Variables'
+Now your data set contains two variables with Release number. Later, we wil construct pid after add housing variables.
+
+
+
+The variable of our interest is how much individual's housing wealth during the recession period.
+The best (but time consuming) way to find the relevant question is to read all questionnaire
+  1. Click DOCUMENTATION tab -> Questionnaires & supporting documentation -> 2000s -> 2005 or 2007 -> Codebook
+
+Easier way is to use search box.
+  2. Click DATA tab -> Data Center -> Search
+  3. Check 'PSID Family-level' and 'PSID Individual-level' in Data type
+  4. Click 2005 and 2007
+However, if you did not know what to type or did search general words such as 'home', the result shows you irrelevant data entry.
+
+* I summarized all relevant questions for consumer finance and expenditures in different directory. 
