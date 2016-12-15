@@ -1,4 +1,5 @@
 This repository contains relevant codes and instructions for how to create the PSID panel data. 
+If you have any questions, email me: jym.econ@gmail.com
 
 PSID webpage: http://psidonline.isr.umich.edu/
 
