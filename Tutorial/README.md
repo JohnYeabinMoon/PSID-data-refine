@@ -1,8 +1,9 @@
 This is a tutorial for how to construct a panel data. You will create home value data from 2005 to 2007.
+Only for Stata users.
 
 Log in: http://psidonline.isr.umich.edu/
 
-The first step is to create individual unique identifier (pid). You need two variables, 1968 ID and Person Number 68.
+The first step is to create the individual unique identifier (pid). You need two variables, 1968 ID and Person Number 68.
 (More detail descrption see the question 9: http://psidonline.isr.umich.edu/Guide/FAQ.aspx)
 
 The variable codes are ER30001 and ER30002 so from the start page
@@ -24,3 +25,14 @@ Easier way is to use search box.
 However, if you did not know what to type or did search general words such as 'home', the result shows you irrelevant data entry.
 
 * I summarized all relevant questions for consumer finance and expenditures in different directory. 
+
+If you know the question number, the search box is really useful. The home value question is A20, and mortgages are A24. 
+  5. In the search box, type A20
+  6. Check the box for Label 'A20 HOUSE VALUE' and click 'Add to Cart' for year 2005 and 2007
+  7. In the search box, type A21    
+  8. Check the box for Label 'A20 HOUSE VALUE' and click 'Add to Cart'
+  9. Check the box for Label 'A24 REM PRINCIPAL MOR1' and 'A24 REM PRINCIPAL MOR2,' and click 'Add to Cart' for year 2005 and 2007
+  10. Click 'Variables added to your cart.' 
+  11. Click 'Checkout'
+  12. Click 'ASCII Data With Stata Statements' and check 'Create compressed file (.zip format) for faster downloading'
+  13. Click 'Submit' at the bottom
