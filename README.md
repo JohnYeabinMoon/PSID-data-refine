@@ -19,3 +19,4 @@ Each sub folder contains raw-data folder. You can see what questions I used to c
 
 Let’s start with Wealth data so go to Wealth folder. 
 
+Rebuild
